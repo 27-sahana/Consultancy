@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Consultancy Co. — Professional Consulting Services</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="nav container">
+      <div class="brand">
+        <div class="logo">CC</div>
+        <div>
+          <div style="font-weight:700">Consultancy Co.</div>
+          <div class="muted" style="font-size:12px">Strategy • Technology • Growth</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#login" class="btn">Login</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle btn" aria-expanded="false" onclick="toggleMobileMenu(this)">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="page hero-section" style="padding-top:140px">
+      <div class="container hero">
+        <div class="hero-left">
+          <div class="fade-in show">
+            <h1>Helping businesses scale with clear strategy and modern tech</h1>
+            <p class="lead">We partner with leaders to design resilient strategies, build reliable systems, and drive measurable growth across digital products and platforms.</p>
+            <div class="cta">
+              <a class="btn" href="#contact">Get a Consultation</a>
+              <div class="card-cta muted">Tailored plans • Expert team • ROI-focused</div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="cover" style="background-image:url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=2b6c9a2b5c2b0f7e9a8e7f9c8a3b6d3e')">
+            <div class="cover-content">
+              <h3 style="margin:0 0 8px">Trusted by enterprises and startups</h3>
+              <p class="muted">Case studies across finance, health, and e-commerce showing real impact.</p>
+              <div style="height:12px"></div>
+              <div style="display:flex;gap:12px">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=8f3a2f" alt="client" style="width:86px;height:56px;object-fit:cover;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.5)">
+                <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3&s=7b1d8e" alt="client2" style="width:86px;height:56px;object-fit:cover;border-radius:8px;box-shadow:0 6px 18px rgba(2,6,23,0.5)">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="page">
+      <div class="container">
+        <div style="display:flex;gap:28px;align-items:center;flex-wrap:wrap">
+          <div style="flex:1;min-width:320px">
+            <h2>About Consultancy Co.</h2>
+            <p class="muted">We are a team of strategists, engineers, and designers who collaborate to deliver sustainable value. Founded in 2012, we focus on measurable outcomes and long-term partnerships.</p>
+            <div style="display:flex;gap:12px;margin-top:18px">
+              <div class="card-cta">Leadership</div>
+              <div class="card-cta">Global Clients</div>
+              <div class="card-cta">Security-first</div>
+            </div>
+          </div>
+          <div style="flex:1;min-width:300px">
+            <div class="cover" style="min-height:360px;background-image:url('https://images.unsplash.com/photo-1526378721236-38223b7a6e11?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=1e3a7')">
+              <div class="cover-content">
+                <h3 style="margin:0">Our Approach</h3>
+                <p class="muted">We diagnose, design, and deliver — with clear milestones and KPIs.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="page">
+      <div class="container">
+        <h2>Services</h2>
+        <p class="muted">End-to-end consulting across strategy, product, and engineering.</p>
+        <div class="gap"></div>
+        <div class="services-grid">
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1526378721236-38223b7a6e11?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=1e3a7" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px">
+            <h3>Strategy & Advisory</h3>
+            <p class="muted">Market analysis, product strategy, and growth roadmaps tailored to your goals.</p>
+          </div>
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3c2a8" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px">
+            <h3>Engineering & Architecture</h3>
+            <p class="muted">Scalable cloud-native solutions, secure by design.</p>
+          </div>
+          <div class="service-card">
+            <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=4c6f9" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px">
+            <h3>Design & Product</h3>
+            <p class="muted">User-centered design leading to higher engagement and conversions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="page">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p class="muted">Tell us about your challenge — we'll respond within 48 hours.</p>
+        <div class="gap"></div>
+        <div class="contact-grid">
+          <form class="card" id="contactForm" onsubmit="handleContact(event)">
+            <label for="name">Name</label>
+            <input id="name" name="name" required placeholder="Your full name">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required placeholder="you@company.com">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required placeholder="Tell us about your needs"></textarea>
+            <div style="height:12px"></div>
+            <div style="display:flex;gap:10px;justify-content:flex-end">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+
+          <div>
+            <div class="card" style="background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);">
+              <h3>Office</h3>
+              <p class="muted">123 Consulting Ave.<br>Suite 700<br>City, Country</p>
+              <div style="height:10px"></div>
+              <p class="muted"><strong>Email:</strong> hello@consultancyco.com<br><strong>Phone:</strong> +1 (555) 123-4567</p>
+              <div style="height:18px"></div>
+              <div style="border-radius:10px;overflow:hidden">
+                <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&s=9a7" style="width:100%;height:220px;object-fit:cover">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="login" class="page">
+      <div class="container">
+        <h2>Client Login</h2>
+        <p class="muted">Access project dashboards and documentation.</p>
+        <div class="gap"></div>
+        <div class="login-panel">
+          <form onsubmit="handleLogin(event)">
+            <label for="user">Email</label>
+            <input id="user" type="email" required placeholder="you@company.com">
+            <label for="pw">Password</label>
+            <input id="pw" type="password" required placeholder="Enter password">
+            <div style="height:12px"></div>
+            <div style="display:flex;justify-content:space-between;align-items:center">
+              <div class="muted">Forgot password? <a href="#contact">Contact us</a></div>
+              <button class="btn" type="submit">Sign In</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Consultancy Co. — All rights reserved.</div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
